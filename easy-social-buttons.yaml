@@ -1,0 +1,89 @@
+enabled: true
+networks:
+  facebook:
+    url: https://www.facebook.com/sharer/sharer.php?u={url}
+    label: Facebook
+    active: true
+    icon: fab fa-facebook-f
+  twitter:
+    url: https://twitter.com/intent/tweet?text={title}&url={url}&via={twittername}
+    label: Twitter
+    active: true
+  google:
+    url: https://plus.google.com/share?url={url}
+    label: Google+
+    active: true
+  linkedin:
+    url: https://www.linkedin.com/shareArticle?mini=true&url={url}
+    label: LinkedIn
+    active: true
+  youtube:
+    url: #
+    label: Youtube
+    active: false
+  instagram:
+    url: #
+    label: Instagram
+    active: false
+  pinterest:
+    url: https://pinterest.com/pin/create/button/?url={url}
+    label: Pinterest
+    active: true
+  snapchat_ghost:
+    url:#
+    label: Snapchat Ghost
+    active: false
+  skype:
+    url: #
+    label: Skype
+    active: false
+  android:
+    url: #
+    label: Android
+    active: false
+  dribbble:
+    url: #
+    label:
+    active: false
+  vimeo:
+    url: #
+    label: Vimeo
+    active: false
+  tumblr:
+    url: https://tumblr.com/share/link?url={url}
+    label: Thumblr
+    active: false
+  vine:
+    url: #
+    label: Vine
+    active: false
+  foursquare:
+    url: #
+    label: Foursquare
+    active: false
+  mix:
+    url: https://mix.com/add?url={url}
+    label: Mix (was Stumbleupon)
+    active: true
+    icon: fab fa-mix
+  flickr:
+    url: #
+    label: Flickr
+    active: false
+  yahoo:
+    url: #
+    label: Yahoo
+    active: false
+  reddit:
+    url: https://www.reddit.com/submit?url={url}
+    label: Reddit
+    active: true
+  rss:
+    url: #
+    label: RSS
+    active: false
+  mail:
+    url: mailto:?subject=Check%20out%20this%20awesome%20resource:%20{title}&body={url}
+    label: Email
+    active: true
+    icon: far fa-envelope

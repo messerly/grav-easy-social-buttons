@@ -1,0 +1,284 @@
+name: Easy Social Buttons
+version: 1.0.0
+description: 'Easy to use social buttons'
+icon: share-alt
+author:
+  name: Johan van de Merwe
+  email: j.vd.merwe@enovision.net
+  url: https://www.enovision.net
+homepage: https://github.com/enovision/grav-easy-social-buttons
+demo: https://notes.enovision.net
+keywords: plugin, social, share, buttons
+bugs: https://github.com/enovision/grav-easy-social-buttons/issues
+license: MIT
+
+form:
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    settings:
+      type: tabs
+      active: 1
+      title: Settings
+      fields:
+        general:
+          type: tab
+          title: General
+          fields:
+            fontawesome:
+              label: Load Fontawesome from CDN?
+              type: toggle
+              highlight: 0
+              default: 0
+              options:
+                1: Yes
+                0: No
+              validate:
+                type: bool
+            button_size:
+              type: select
+              label: Icon Size
+              highlight: large
+              default: large
+              size: small
+              options:
+                large: Large
+                small: Small
+
+            button_shape:
+              type: select
+              label: Icon Shape
+              highlight: flat
+              default: flat
+              size: small
+              options:
+                flat: Flat
+                circle: Circle
+        networks:
+          type: tab
+          title: Social Networks
+          fields:
+            facebook:
+              label: Facebook
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            twitter:
+              label: Twitter
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            twittername:
+              label: Twitter Name
+              type: string
+              validate:
+                type: required
+            google:
+              label: Google+
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            linkedin:
+              label: LinkedIn
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            youtube:
+              label: Youtube
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            instagram:
+              label: Instagram
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            pinterest:
+              label: Pinterest
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            snapchat_ghost:
+              label: Snapchat Ghost
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            skype:
+              label: Skype
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            android:
+              label: Android
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            dribbble:
+              label: Dribble
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            vimeo:
+              label: Vimeo
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            tumblr:
+              label: Thumblr
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            vine:
+              label: Vine
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            foursquare:
+              label: Foursquare
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            mix:
+              label: Mix (was Stumbleupon)
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            flickr:
+              label: Flickr
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            yahoo:
+              label: Yahoo
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            reddit:
+              label: Reddit
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            rss:
+              label: RSS
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
+            mail:
+              label: Email
+              type: toggle
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool

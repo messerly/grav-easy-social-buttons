@@ -1,0 +1,22 @@
+<div class="cv-social-media">
+    {% for network, item in config.networks %}
+        {% if config[network]|defined(false) and item.active|defined(false) %}
+
+            {% set icon = item.icon is defined ? item.icon : 'fab fa-' ~ network %}
+            {% set url = page.url(true) %}
+            {% set title = page.title %}
+            {% set twittername = config['twittername']|defined('') %}
+
+            {% set referer = item.url|replace({
+                '{url}': url,
+                '{twittername}': twittername,
+                '{title}': title
+            }) %}
+
+            <a href="{{ referer }}"
+               target="_blank"
+               class="{{ icon }} fa-shape-{{ icon_shape|defined('flat') }} fa-{{ icon_size }}"
+               title="{{ item.label }}"></a>
+        {% endif %}
+    {% endfor %}
+</div>
