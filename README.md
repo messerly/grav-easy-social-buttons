@@ -34,7 +34,7 @@ git clone https://github.com/enovision/grav-easy-social-buttons easy-social-butt
 
 ### Manual Installation
 
-To install this plugin, download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `grav-frontend-edit-button`. You can find these files on [GitHub](https://github.com/enovision/grav-easy-social-buttons) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+To install this plugin, download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `easy-social-buttons`. You can find these files on [GitHub](https://github.com/enovision/grav-easy-social-buttons) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
 
 You should now have all the plugin files under
 
