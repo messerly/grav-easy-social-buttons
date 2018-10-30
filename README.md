@@ -110,7 +110,7 @@ Default available:
 Networks are placed in the `easy-social-buttons.yaml` and in
 the `blueprints.yaml`.
 
-!Important
+**Important**
 When adding a new or modifying an existing network after the plugin is already
 active and in use, you have 2 options:
 
