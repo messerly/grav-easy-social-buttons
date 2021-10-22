@@ -1,4 +1,5 @@
 <div class="cv-social-media">
+    <span style="float:left; margin-right:20px">Share:</span>
     {% for network, item in config.networks %}
         {% if config[network]|defined(false) and item.active|defined(false) %}
 
@@ -16,7 +17,7 @@
             <a href="{{ referer }}"
                target="_blank"
                class="{{ icon }} fa-shape-{{ icon_shape|defined('flat') }} fa-{{ icon_size }}"
-               title="{{ item.label }}"></a>
+               title="{{ item.label }}" style="width:25px; display:block!important; float:left; margin-right: 5px;"></a>
         {% endif %}
     {% endfor %}
 </div>
